@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
     <link rel="icon" type="image/png" href="image/expense-favicon.png">
-
-
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,13 +32,13 @@
             required
           />
           <button type="submit">Add Transaction</button>
-          <button type="button" id="cancelEditButton" style="display: none; margin-top: 5px;">
+          <button type="button" id="cancelEditButton" class="cancel-edit">
             Cancel Edit
           </button>
         </form>
       </div>
 
-      <h3 style="margin-top: 20px">History</h3>
+      <h3 class="history-title">History</h3>
       <ul id="transactionList"></ul>
     </div>
 

@@ -102,7 +102,7 @@ function editTransaction(id) {
   cancelEditButton.style.display = "inline";
 }
 
-//cencel edit button
+//cancel edit button
 
 function cancelEdit() {
   descriptionInput.value = "";
